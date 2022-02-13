@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.20092592592592592" />
+        <entry key="app/src/main/res/drawable/select_tab_item.xml" value="0.20092592592592592" />
+        <entry key="app/src/main/res/drawable/un_select_tab_item.xml" value="0.20092592592592592" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.16018518518518518" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17222222222222222" />
+        <entry key="app/src/main/res/layout/coin_rank_tab.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/fragment_coin_list.xml" value="0.16018518518518518" />
+        <entry key="app/src/main/res/layout/fragment_coin_rank.xml" value="0.5685185185185185" />
+        <entry key="app/src/main/res/layout/infinite_view_pager.xml" value="0.17222222222222222" />
+        <entry key="app/src/main/res/layout/item_coin_state.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/item_coin_ticker.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/item_coin_ticker_header.xml" value="0.549074074074074" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
