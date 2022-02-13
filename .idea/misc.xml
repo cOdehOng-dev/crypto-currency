@@ -8,7 +8,7 @@
         <entry key="app/src/main/res/drawable/un_select_tab_item.xml" value="0.20092592592592592" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.16018518518518518" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17222222222222222" />
-        <entry key="app/src/main/res/layout/coin_rank_tab.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/coin_rank_tab.xml" value="0.5" />
         <entry key="app/src/main/res/layout/fragment_coin_list.xml" value="0.16018518518518518" />
         <entry key="app/src/main/res/layout/fragment_coin_rank.xml" value="0.5685185185185185" />
         <entry key="app/src/main/res/layout/infinite_view_pager.xml" value="0.17222222222222222" />
