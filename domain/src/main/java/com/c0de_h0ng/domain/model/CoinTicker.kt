@@ -3,7 +3,7 @@ package com.c0de_h0ng.domain.model
 /**
  * Created by c0de_h0ng on 2022/02/13.
  */
-data class Coin(
+data class CoinTicker(
     val id: String,
     val rank: Int,
     val name: String,

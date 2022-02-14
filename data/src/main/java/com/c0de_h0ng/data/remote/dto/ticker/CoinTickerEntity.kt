@@ -1,28 +1,26 @@
 package com.c0de_h0ng.data.remote.dto.ticker
 
-import com.c0de_h0ng.domain.model.Coin
-import com.c0de_h0ng.domain.model.State
 import com.google.gson.annotations.SerializedName
 
-data class CoinTickerDto(
+data class CoinTickerEntity(
     @SerializedName("beta_value")
     val betaValue: Double,
     @SerializedName("circulating_supply")
-    val circulatingSupply: Int,
+    val circulatingSupply: Long,
     @SerializedName("first_data_at")
     val firstDataAt: String,
     val id: String,
     @SerializedName("last_updated")
     val lastUpdated: String,
     @SerializedName("max_supply")
-    val maxSupply: Int,
+    val maxSupply: Long,
     val name: String,
     @SerializedName("info")
     val info: Info,
     val rank: Int,
     val symbol: String,
     @SerializedName("total_supply")
-    val totalSupply: Int
+    val totalSupply: Long
 )
 
 data class Info(
@@ -58,28 +56,6 @@ data class CoinState(
     val volume24hChange24h: Double // 거래량 변동율
 )
 
-fun CoinTickerDto.toCoin(): Coin {
-    return Coin(
-        id = id,
-        rank = rank,
-        name = name,
-        symbol = symbol,
-        state = info.coinState.toState()
-    )
-}
-
-fun CoinState.toState(): State {
-    return State(
-        price = price,
-        volume24h = volume24h,
-        marketCap = marketCap,
-        hourPerChange= hourPerChange,
-        dayPerChange = dayPerChange,
-        weekPerChange = weekPerChange,
-        monthPerChange = monthPerChange,
-        yearPerChange = yearPerChange
-    )
-}
 
 
 

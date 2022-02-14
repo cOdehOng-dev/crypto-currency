@@ -1,6 +1,6 @@
 package com.c0de_h0ng.data.remote.api
 
-import com.c0de_h0ng.data.remote.dto.ticker.CoinTickerDto
+import com.c0de_h0ng.data.remote.dto.ticker.CoinTickerEntity
 import retrofit2.http.GET
 import retrofit2.http.Path
 
@@ -15,10 +15,10 @@ interface CoinPaprikaApi {
 
 
     @GET("v1/tickers")
-    suspend fun getCoinTickerList(): List<CoinTickerDto>
+    suspend fun getCoinTickerList(): List<CoinTickerEntity>
 
 
     @GET("v1/tickers/{coin_id}")
-    suspend fun getCoinTicker(@Path("coin_id") coinId: String): CoinTickerDto
+    suspend fun getCoinTicker(@Path("coin_id") coinId: String): CoinTickerEntity
 
 }

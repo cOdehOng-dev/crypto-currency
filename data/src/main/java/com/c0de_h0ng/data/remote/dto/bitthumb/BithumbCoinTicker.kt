@@ -1,6 +1,6 @@
 package com.c0de_h0ng.data.remote.dto.bitthumb
 
-data class CoinTicker(
+data class BithumbCoinTicker(
     val response: Map<String, Ticker>
 ) {
     fun getCoinName() {

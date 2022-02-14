@@ -13,7 +13,7 @@
         android:id="@+id/cl_tab"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/dp_40"
-        android:background="@drawable/un_select_tab_item"
+        android:background="@drawable/select_tab_item"
         android:clickable="true">
 
         <TextView

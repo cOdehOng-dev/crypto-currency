@@ -1,6 +1,6 @@
 package com.c0de_h0ng.data.remote.api
 
-import com.c0de_h0ng.data.remote.dto.bitthumb.CoinTicker
+import com.c0de_h0ng.data.remote.dto.bitthumb.BithumbCoinTicker
 import com.c0de_h0ng.data.remote.model.BithumbResponse
 import retrofit2.Call
 import retrofit2.http.GET
@@ -17,7 +17,7 @@ interface BithumbApi {
 
 
     @GET("ticker/all")
-    fun getBithumbCoinTicker(): Call<BithumbResponse<CoinTicker>>
+    fun getBithumbCoinTicker(): Call<BithumbResponse<BithumbCoinTicker>>
 
 
 

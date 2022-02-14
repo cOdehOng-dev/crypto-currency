@@ -5,5 +5,5 @@ package com.c0de_h0ng.domain.model
  */
 data class CoinRank(
     val title: String,
-    val rank: List<Coin>
+    val rank: List<CoinTicker>
 )
